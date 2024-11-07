@@ -11,18 +11,38 @@ a{
     font-size: 1rem;
 }
 /*estilos del landpage below*/
-.menu{
-    background-color: red;
-    height: 3rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-    .menu h2{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
 
+/*seccion menú*/
+
+.menu {
+    background-color: red;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu a img {
+    width: 2vw;
+    height: 2.5vh;
+    margin: 12px 25px;
+    /*izquierda derecha 5px*/
+}
+
+.menu a h2 {
+    text-decoration: none;
+    margin-left: 3vh;
+    color: white;
+}
+/*seccion encabezado*/
 .futcol{
     background-color: grey;
     height: 6rem;
@@ -35,7 +55,7 @@ a{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
-
+/*seccion principal*/
 .contenedor{
     display: flex;
     flex-direction: row;
@@ -44,7 +64,7 @@ a{
     width: 100vw;
     background-color: rgba(255, 255, 255, 0.994); /*Todo el contenedor en esto estan las cajas de noticias y el de publicidad */
 }
-
+/*seccion noticias*/
 .layout{
     display: flex;
     flex-direction: column;
@@ -121,14 +141,13 @@ a{
                     padding: 5px 0;  /*arriba y abajo 5px*/
                 }
 
-            
-
 p{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7rem; 
 }
 
+/*seccion publicidad*/
 aside{
     margin-top: 12px;
     width: 20vw;
@@ -140,6 +159,7 @@ aside{
         height: 48.5vh;
     }
 
+/*seccion final del footer*/
 footer {
     background-color: hsl(0, 0%, 76%); /* Fondo oscuro para el footer */
     color: white; /* Texto blanco */
