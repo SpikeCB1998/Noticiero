@@ -42,7 +42,7 @@ a{
     margin-top: 1rem;
     justify-content: center;
     width: 100vw;
-    background-color: brown;
+    background-color: rgba(255, 255, 255, 0.994); /*Todo el contenedor en esto estan las cajas de noticias y el de publicidad */
 }
 
 .layout{
@@ -53,18 +53,16 @@ a{
 
     .portada{
         width: 100%;
-        background-color: yellow;
+        background-color: rgba(255, 255, 255, 0.994);
         display:flex;
         justify-content: center;
         padding: 10px;
     }
 
         .noticia-principal{
-            background-color: aqua;
+            background-color: rgb(232, 232, 232);
             width: 100%;
-            border-width: 6px;
-            border-color: blue;
-            border-style: solid;
+            padding: 6px;
             margin: 2px;
             justify-content: center;
         }
@@ -85,7 +83,7 @@ a{
 
     .noticias{
         width: 100%;
-        background-color: yellow;
+        background-color: rgba(255, 255, 255, 0.994);
         display:flex;
         justify-content: center;
         display: flex;
@@ -94,18 +92,16 @@ a{
     }
 
         .row{
-            background-color: bisque;
+            background-color: rgba(255, 255, 255, 0.994);
             display: flex;
             justify-content:space-between;
         }
 
 
             .noticia{
-                background-color: aqua;
+                background-color: rgba(255, 255, 255, 0.994);
                 width: 100%;
-                border-width: 6px;
-                border-color: blue;
-                border-style: solid;
+                padding: 6px;
                 margin: 2px;
                 display: flex;
                 flex-direction: column;
@@ -115,7 +111,7 @@ a{
 
                 .noticia img{
                     width:100%;
-                    height:12rem;
+                    height:20rem;
                 }
 
                 .noticia h2{
@@ -134,10 +130,15 @@ p{
 }
 
 aside{
+    margin-top: 12px;
     width: 20vw;
     height: 50vh;
-    background-color: aqua;
+    background-color: white;
 }
+    aside img{
+        width: 100%;
+        height: 48.5vh;
+    }
 
 footer {
     background-color: hsl(0, 0%, 76%); /* Fondo oscuro para el footer */
